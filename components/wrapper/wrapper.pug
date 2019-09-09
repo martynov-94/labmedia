@@ -1,2 +1,7 @@
 mixin wrapper(data) 
-  .wrapper
+  header.header
+    +header(data.logos, data.course_name)
+  .content
+    +content(data)
+  .empty-space
+    +empty-space()

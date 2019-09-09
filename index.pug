@@ -1,43 +1,91 @@
 include build/project.pug
+include build/constants.pug
 	
 -
   let data = {
+    logos: [
+      {
+        path: IMG_PATH + "logos/eldorado-logo.svg",
+        alt: "Эльдорадо",
+        title: "Эльдорадо"
+      }, 
+      {
+        path: IMG_PATH + "logos/mvideo-logo.svg",
+        alt: "М.Видео",
+        title: "М.Видео"
+      }
+    ],
     course_name: "Название курса в одну строку",
     main_title: "Еще больше возможностей",
     phone_name: "Samsung Galaxy S10",
     design_title: "Новый дизайн",
     design_items: [
       {
-        img_path: "",
-        text: "Абсолютно новый Infinity-O экран — на передней стороне смартфона нет ничего, кроме огромного экрана и фронтальной камеры."  
+        img: {
+          path: IMG_PATH + "design-features/banner.svg",
+          alt: "Экран Infinity-O",
+          title: "Экран Infinity-O"
+        },
+        text: "Абсолютно новый Infinity-O экран — на передней стороне смартфона нет ничего, кроме огромного экрана и фронтальной камеры.",
+        main: true  
       },
       {
-        img_path: "",
+        img: {
+          path: IMG_PATH + "design-features/back_view.svg",
+          alt: "Керамический корпус",
+          title: "Керамический корпус",
+        },
         text: "Для любителей роскоши, модель S10+ будет выпускаться в керамическом корпусе черного и белого цветов."
       },
       {
-        img_path: "",
-        text: "Смартфоны доступны в 4х стильных цветах: Перламутр, Аквамарин, Оникс и Цитрус (для S10e). "
+        img: {
+          path: IMG_PATH + "design-features/colors.svg",
+          alt: "Четыре расцветки",
+          title: "Четыре расцветки",
+        },
+        text: "Смартфоны доступны в 4х стильных цветах: Перламутр, Аквамарин, Оникс и Цитрус (для S10e).",
+        no_border: true
       },
       {
-        img_path: "",
-        text: "В моделях S10 и S10+ установлены защитные стекла нового поколения – Gorilla Glass 6."
+        img: {
+          path: IMG_PATH + "design-features/gorilla_glass.svg",
+          alt: "Стекло Gorilla Glass 6",
+          title: "Стекло Gorilla Glass 6",
+        },
+        text: "В моделях S10 и S10+ установлены защитные стекла нового поколения – Gorilla Glass 6.",
+        no_border: true
       }
     ],
     camera_error_title: "Сканер отпечатка в экране",
     camera_title: "Съемка видео",
-    camera_img_path: "",
+    camera_img: {
+      path: IMG_PATH + "camera-features/camera.svg",
+      alt: "Съемка видео",
+      title: "Съемка видео"
+    },
     camera_items: [
       {
-        img_path: "",
+        img: {
+          path: IMG_PATH + "camera-features/camera-list/quality.svg",
+          alt: "Высокое качество съемки",
+          title: "Высокое качество съемки"
+        },
         text: "Отличное качество съемки новых поколениесмартфонов Samsung позволит создать и смотреть праздники, семейные торжества и памятные моменты на огромном экране, с яркими, живыми цветами и прекрасной детализацией."
       },
       {
-        img_path: "",
+        img: {
+          path: IMG_PATH + "camera-features/camera-list/stabilization.svg",
+          alt: "Стабилизация изображения",
+          title: "Стабилизация изображения"
+        },
         text: "Дополнительная система стабилизации сделает видеоролики плавными и красивыми."
       },
       {
-        img_path: "",
+        img: {
+          path: IMG_PATH + "camera-features/camera-list/slow-motion.svg",
+          alt: "Замедленная съемка",
+          title: "Замедленная съемка"
+        },
         text: "Сверхзамедленная съемка (960 кадров в секунду) теперь в 2 раза дольше. Камера в S10 способна распознать  самое стремительное движение, такое как языки пламени, брызги воды, дым из под колес спорткара."
       }
     ],

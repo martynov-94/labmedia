@@ -1,0 +1,5 @@
+mixin design-item(item)
+  img.design-item__pic(src=item.img.path alt=item.img.alt title=item.img.title)
+  .design-item__border
+  .design-item__description= item.text
+  block
