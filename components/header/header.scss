@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  &__logos-group {
+    margin: 12px 25px 8px;
+    padding: 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    margin-left: 5px;
+    border: 1px solid black;
+  }
+
+  &__logo:not(:last-of-type) {
+    margin-right: 10px;
+  }
+
+  &__title {
+    font-family: "PT Root UI", arial;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.7;
+  }
+
+  &__menu-btn {
+    z-index: -1;
+
+    width: 0.1px;
+    height: 0.1px;
+
+    opacity: 0;
+  }
+
+  &__menu-btn-label {
+    margin: 14px 25px;
+    margin-left: auto;
+    border: 1px solid black;
+    color: #D70E2A;
+  
+    &:hover {
+      cursor: pointer;
+      color: lighten(#D70E2A, 10%);
+    }
+  }
+}

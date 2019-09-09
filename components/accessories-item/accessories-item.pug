@@ -1,0 +1,6 @@
+mixin accessories-item(img, text)
+  if img
+    img.accessories-item__pic(src=img.path alt=img.alt title=img.title)
+  .accessories-item__border
+  .accessories-item__description= text
+  block

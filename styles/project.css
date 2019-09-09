@@ -1,8 +1,16 @@
+@font-face {
+  font-family: 'PTRootUIWebRegular';
+  src: url("../fonts/PT%20Root%20UI_Regular.eot");
+  src: url("../fonts/PT%20Root%20UI_Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PT%20Root%20UI_Regular.woff2") format("woff2"), url("../fonts/PT%20Root%20UI_Regular.woff") format("woff"), url("../fonts/PT%20Root%20UI_Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 html, body {
   margin: 0;
   padding: 0; }
 
 body {
+  height: 100%;
   background-color: #e5e5e5; }
 
 * {
@@ -13,3 +21,54 @@ ol, ul, nav {
   margin: 0;
   padding: 0;
   list-style: none; }
+
+.wrapper {
+  max-width: 1920px;
+  height: auto;
+  margin: 0;
+  background-color: white; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .header__logos-group {
+    margin: 12px 25px 8px;
+    padding: 0;
+    border: 1px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header__title {
+    margin-left: 5px;
+    border: 1px solid black; }
+  .header__logo:not(:last-of-type) {
+    margin-right: 10px; }
+  .header__title {
+    font-family: "PT Root UI", arial;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.7; }
+  .header__menu-btn {
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0; }
+  .header__menu-btn-label {
+    margin: 14px 25px;
+    margin-left: auto;
+    border: 1px solid black;
+    color: #D70E2A; }
+    .header__menu-btn-label:hover {
+      cursor: pointer;
+      color: #f12743; }

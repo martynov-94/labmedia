@@ -1,0 +1,9 @@
+mixin accessories-features(items)
+  -let className = ""
+  each item in items
+    -className = "accessories-item"
+    if !item.img
+      -className += " accessories-item_no-pic"
+    li(class= className)
+      +accessories-item(item.img, item.text)
+  block
