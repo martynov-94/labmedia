@@ -6,6 +6,7 @@ mixin design-features(items)
       -className += " design-item_main"
     if item.no_border
       -className += " design-item_no-border"
+    -className += " area-" + item.grid_area
     li(class= className)
       +design-item(item)
   block
