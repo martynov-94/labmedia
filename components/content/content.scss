@@ -5,7 +5,6 @@
 
   @media(max-width: 719px) {
     padding: 0 15px;
-
   }
 
   &::before {
@@ -54,6 +53,22 @@
   }
 
   &__design {
-    
+
+  }
+
+  &__camera {
+    margin-bottom: 100px;
+
+    @media (max-width: 719px) {
+      margin-bottom: 70px;
+    }
+  }
+
+  &__accessories {
+    margin-bottom: 60px;
+
+    @media (max-width: 719px) {
+      margin-bottom: 50px;
+    }
   }
 }

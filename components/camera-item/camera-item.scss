@@ -1,0 +1,27 @@
+.camera-item {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 719px) {
+    flex-direction: column;
+  }
+
+  &__pic {
+    margin-right: 40px;
+
+    @media (max-width: 719px) {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 1.5;
+
+    @media (max-width: 999px) {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+
+}

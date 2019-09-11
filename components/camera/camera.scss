@@ -1,0 +1,35 @@
+.camera {
+
+  &__title {
+    display: none;
+  }
+
+  &__title, 
+  &__title_error {
+    font-size: 30px;
+    line-height: 1.33;
+    margin: 40px 0 50px;
+    font-weight: bold;
+
+    @media (max-width: 719px) {
+      margin: 20px 0 30px;
+
+      font-size: 22px;
+      line-height: 1.41;
+    }
+  }
+
+  @media (max-width: 999px) {
+    &__title {
+      display: block;
+    }
+
+    &__title_error {
+      display: none;
+    }
+  }
+
+  &__features {
+    // margin-bottom: 100px;
+  }
+}
