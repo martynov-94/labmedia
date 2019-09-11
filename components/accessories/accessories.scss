@@ -1,0 +1,16 @@
+.accessories {
+  &__title {
+    font-size: 30px;
+    line-height: 1.33;
+    margin-bottom: 54px;
+
+    @media (max-width: 999px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 719px) {
+      font-size: 22px;
+      line-height: 1.41;
+    }
+  }
+}
