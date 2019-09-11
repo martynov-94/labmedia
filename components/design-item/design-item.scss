@@ -26,7 +26,6 @@
 
     @media (max-width: 999px) {
       font-size: 14px;
-      line-height: 1.5;
     }
   }
 
@@ -58,7 +57,9 @@
       margin-bottom: 0px;
       align-self: center;
 
-      clip-path: inset(1px 0px 0px 3px);
+      max-width: 320px;
+      width: calc(100% - 30px);
+      clip-path: inset(2px 0px 0px 3px);
 
       @media (max-width: 999px) {
         width: 265px;
@@ -68,8 +69,9 @@
       } 
 
       @media (max-width: 719px) {
-        width: 230px;
+        // width: 230px;
         // height: 158px;
+        
       }
     }
 

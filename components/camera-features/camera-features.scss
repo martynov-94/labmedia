@@ -2,7 +2,7 @@
   // border: 1px solid green;
 
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
 
   @media (max-width: 719px) {
@@ -11,9 +11,9 @@
   }
 
   &__picture {
-    
+    width: 100%;
     @media (max-width: 999px) {
-      width: 325px;
+      // width: 325px;
     }
 
     @media (max-width: 719px) {
