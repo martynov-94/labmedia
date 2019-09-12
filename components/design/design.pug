@@ -1,5 +1,5 @@
-mixin design(design_title, design_items)
-  h2.design__title= design_title
+mixin design(title, items)
+  h2.design__title= title
   ul.design__features.design-features
-    +design-features(design_items)
+    +design-features(items)
   block

@@ -6,5 +6,5 @@ mixin accessories-features(items)
       -className += " accessories-item_no-pic"
     -className += " area-" + item.grid_area
     li(class= className)
-      +accessories-item(item.img, item.text)
+      +accessories-item(item.img, item.text_big, item.text_medium, item.text_small)
   block

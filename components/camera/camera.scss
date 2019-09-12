@@ -5,10 +5,11 @@
 
   &__title, 
   &__title_error {
+    margin: 0 0 50px;
+    
+    font-weight: bold;
     font-size: 30px;
     line-height: 1.33;
-    margin: 0 0 50px;
-    font-weight: bold;
 
     @media (max-width: 719px) {
       margin: 20px 0 30px;
@@ -26,9 +27,5 @@
     &__title_error {
       display: none;
     }
-  }
-
-  &__features {
-    // margin-bottom: 100px;
   }
 }

@@ -1,5 +1,4 @@
 .design-features {
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
@@ -18,10 +17,6 @@
       "main-1   main-1"
       "small-2  small-1"
       "main-2   main-2";
-
     gap: 40px 8px;
-  }
-
-  &__item {
   }
 }

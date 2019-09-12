@@ -1,6 +1,6 @@
-mixin camera(camera_error_title, camera_title, camera_img, camera_items)
-  h2.camera__title_error= camera_error_title
-  h2.camera__title= camera_title
+mixin camera(error_title, title, img, items)
+  h2.camera__title_error= error_title
+  h2.camera__title= title
   .camera__features.camera-features
-    +camera-features(camera_img, camera_items)
+    +camera-features(img, items)
   block

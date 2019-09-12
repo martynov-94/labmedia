@@ -7,8 +7,8 @@
 
   @media (max-width: 999px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px 20px;
     align-items: stretch;
+    gap: 50px 20px;
   }
 
   @media (max-width: 719px) {
@@ -17,12 +17,6 @@
       "main-1   main-1"
       "main-2   main-2"
       "small-2  small-1";
-
     gap: 40px 7px;
   }
-
-  &__item {
-    
-  }
-  
 }

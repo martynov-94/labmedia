@@ -1,16 +1,15 @@
 .services {
   &__title {
-    font-size: 30px;
-    line-height: 1.33;
     margin: 0 0 50px;
 
+    font-size: 30px;
+    line-height: 1.33;
+
     @media (max-width: 719px) {
+      margin: 0 0 30px;
+      
       font-size: 22px;
       line-height: 1.41;
-      margin: 0 0 30px;
     }
-  }
-
-  &__features {
   }
 }

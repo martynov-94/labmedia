@@ -1,8 +1,9 @@
 .accessories {
   &__title {
+    margin-bottom: 54px;
+    
     font-size: 30px;
     line-height: 1.33;
-    margin-bottom: 54px;
 
     @media (max-width: 999px) {
       margin-bottom: 40px;

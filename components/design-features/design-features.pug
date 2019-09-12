@@ -8,5 +8,5 @@ mixin design-features(items)
       -className += " design-item_no-border"
     -className += " area-" + item.grid_area
     li(class= className)
-      +design-item(item)
+      +design-item(item.img, item.text)
   block
