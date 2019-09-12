@@ -2,14 +2,14 @@
   &__title {
     margin: 0 0 50px;
 
-    font-size: 30px;
-    line-height: 1.33;
+    font-size: $H2-FONT-SIZE-DESK;
+    line-height: $H2-LINE-HEIGHT-DESK;
 
     @media (max-width: 719px) {
       margin: 0 0 30px;
       
-      font-size: 22px;
-      line-height: 1.41;
+      font-size: $H2-FONT-SIZE-MOBILE;
+      line-height: $H2-LINE-HEIGHT-MOBILE;
     }
   }
 }

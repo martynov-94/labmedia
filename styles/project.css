@@ -29,7 +29,8 @@ body {
   height: 100%;
   background-color: #e5e5e5;
   font-weight: bold;
-  font-family: "PT Root UI", arial; }
+  font-family: "PT Root UI", arial;
+  color: #000000; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -46,7 +47,7 @@ ol, ul, nav {
   height: auto;
   margin: 0 auto;
   padding-bottom: 50px;
-  background-color: white; }
+  background-color: #ffffff; }
 
 .header {
   display: -webkit-box;
@@ -104,7 +105,7 @@ ol, ul, nav {
     height: 32px;
     margin: 14px 25px;
     margin-left: auto;
-    color: #D70E2A;
+    color: #d70e2a;
     background: url("../img/menu.svg") no-repeat center; }
     .header__menu-btn-label:hover {
       opacity: 0.7;
@@ -123,7 +124,7 @@ ol, ul, nav {
       padding: 5px 15px;
       font-size: 10px;
       line-height: 1.4;
-      background-color: #EFEFEF;
+      background-color: #efefef;
       opacity: 0.7; } }
 
 .content {
@@ -140,7 +141,7 @@ ol, ul, nav {
     content: "";
     width: 20.8%;
     height: 4px;
-    background-color: #D70E2A; }
+    background-color: #d70e2a; }
     @media (max-width: 719px) {
       .content::before {
         display: none; } }
@@ -283,7 +284,7 @@ ol, ul, nav {
           -webkit-clip-path: inset(2px 0px 0px 3px);
           clip-path: inset(2px 0px 0px 3px); } }
     .design-item_main .design-item__border {
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       opacity: 0.25; }
     .design-item_main .design-item__description {
       margin-right: 3px;

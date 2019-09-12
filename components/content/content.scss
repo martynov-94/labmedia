@@ -17,7 +17,7 @@
     width: 20.8%;
     height: 4px;
 
-    background-color: #D70E2A;
+    background-color: #d70e2a;
     
     @media(max-width: 719px) {
       display: none;
@@ -28,12 +28,12 @@
     margin-top: 40px;
     margin-bottom: 40px;
 
-    font-size: 38px;
-    line-height: 1.32;
+    font-size: $H1-FONT-SIZE-DESK;
+    line-height: $H1-LINE-HEIGHT-DESK;
 
     @media(max-width: 719px) {
-      font-size: 30px;
-      line-height: 1.33;
+      font-size: $H1-FONT-SIZE-MOBILE;
+      line-height: $H1-LINE-HEIGHT-MOBILE;
     }
   }
 

@@ -16,8 +16,8 @@
   }
 
   &__description {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: $TEXT-SIZE-DESK;
+    line-height: $LINE-HEIGHT-DESK;
 
     &_big {
       display: block;
@@ -29,7 +29,7 @@
     }
 
     @media (max-width: 999px) {
-      font-size: 14px;
+      font-size: $TEXT-SIZE-MOBILE;
 
       &_medium {
         display: block;
@@ -56,8 +56,8 @@
   &_no-pic {
     .accessories-item__description {
       @media (max-width: 719px) {
-        font-size: 12px;
-        line-height: 1.42;
+        font-size: $TEXT-SIZE-SPECIAL-MOBILE;
+        line-height: $LINE-HEIGHT-SPECIAL-MOBILE;
       }
     }
 

@@ -14,11 +14,11 @@
   }
 
   &__description {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: $TEXT-SIZE-DESK;
+    line-height: $LINE-HEIGHT-DESK;
 
     @media (max-width: 999px) {
-      font-size: 14px;
+      font-size: $TEXT-SIZE-TABLET;
     }
   }
 }
